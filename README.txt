@@ -9,7 +9,7 @@ FileDiff: A simple C# command line app to compare two directories and zip the di
 -z:   Zip name - Changes the name of the output zip file, if not specified default is "Diff"
 -h    Hide diff - hides the final output of differences between the two directories
 -sc   Skip Copy - skips the copying of the files that are different. NOTE: This will also not create a zip file of the deltas between the directories.
--q    Quiet mode - hides out output to the screen, will still print errors
+-q    Quiet mode - hides output from the program, will still print errors
 -l    Logging - If set, creates a log file at the current directory entitled "FileDiffLog - $currentDate $currentTime"  NOTE: This is not affected by quiet mode
 
 - To Run -
